@@ -1,0 +1,23 @@
+.menu{
+  padding: 1.5rem;
+}
+
+.menu__header{
+  width: 100%;
+  display: flex;
+  color: #464646;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__list{
+  display: none;
+}
+
+.menu__email{
+text-decoration: none;
+font-weight: 300;
+color: #464646;
+}
+
