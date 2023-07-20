@@ -1,5 +1,8 @@
 body {
   font-family: 'Dosis', sans-serif;
+  color: #464646;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,4 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 
 ul, li {
   padding: 0;
+}
+
+a{
+  color: #464646
 }
