@@ -5,16 +5,16 @@
 
 .about__title{
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .about__paragraph{
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: normal;
   text-align: justify;
 }
 
 .about__container img{
-  width: 13rem;
+  width: 11rem;
 }

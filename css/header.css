@@ -31,18 +31,9 @@
   width: 100%;
   list-style: none;
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   font-size: 1rem;
 }
-
-/* .title__network__item{
-  padding: 0.8rem 0;
-  margin-bottom: 0.5rem;
-  border-radius: 10px;
-  background-color: #ffffff60;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-} */
 
 .title__network__item a{
   text-decoration: none;
