@@ -1,6 +1,7 @@
 .about__container{
   background-color: #EAF2FD;
   padding: 1.5rem;
+  padding-top: 3rem;
 }
 
 .about__title{
@@ -12,7 +13,7 @@
   font-weight: 300;
   font-size: 1.3rem;
   line-height: normal;
-  text-align: justify;
+  text-align: left;
 }
 
 .about__container img{

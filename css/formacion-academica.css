@@ -9,6 +9,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.5rem;
+  padding-top: 2rem;
 }
 
 .academic__courses__list{
@@ -24,18 +25,18 @@
 }
 
 .academic_-courses__item_img img{
-  width: 8rem;
+  width: 7rem;
 }
 
 .academic__courses__item__title{
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-top: 0.8rem;
 }
 
 .academic__courses__item__subtitle{
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-top: -10px;
   margin-bottom: 2rem;
 }

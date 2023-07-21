@@ -10,7 +10,8 @@
 .formcontacto__title{
   font-weight: 700;
   font-size: 1.5rem;
-  padding: 1rem 0;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .formcontacto__subtext{

@@ -6,13 +6,13 @@
 .skills__title{
   font-weight: 700;
   font-size: 1.5rem;
-  padding-top: 0.5rem;
+  padding-top: 2rem;
   padding-bottom: 0.6rem;
 }
 
 .skills__line{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -33,8 +33,8 @@
 }
 
 .skills__img img{
-  width: 2.5rem;
-  margin-bottom: 0.8rem;
+  width: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .skills__names{

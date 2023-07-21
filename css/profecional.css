@@ -1,5 +1,6 @@
 .experience{
-  padding: 1.5rem;
+  padding: 2rem 1.5rem 0 1.5rem;
+  margin-bottom: -30px;
 }
 
 .experience__section__title{
@@ -7,6 +8,7 @@
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 1.5rem;
+  padding-top: 2rem;
 }
 
 .experience__box{
@@ -25,7 +27,7 @@
 }
 
 .experience__text{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
