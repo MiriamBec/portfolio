@@ -42,3 +42,46 @@
 .title__network__item img{
   width: 0.7rem;
 }
+
+@media screen and (min-width: 768px) {
+  .title__div{
+    flex-direction: initial;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 1.8rem 2rem 2rem 2rem;
+  }
+
+  .title__img{
+    width: 11rem;
+    padding: 0;
+  }
+
+  .title__container{
+    margin-right: 5rem;
+    text-align: left;
+  }
+
+  .title__subsection{
+    padding: 0;
+    padding-top: 0.8rem;
+  }
+
+  .title__network{
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin: 0;
+  margin-top: 1rem;
+  }
+
+  .title__network__item img{
+    width: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1064px) {
+  .menu{
+    background-color: antiquewhite;
+  }
+
+  
+}

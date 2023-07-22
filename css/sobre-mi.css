@@ -19,3 +19,17 @@
 .about__container img{
   width: 11rem;
 }
+
+@media screen and (min-width: 768px) {
+  .about__container{
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 1064px) {
+  .menu__header{
+    font-size: 1.5rem;
+  }
+}

@@ -57,3 +57,17 @@
   border: 2px solid #2A7AE4;
   align-self: flex-start;
 }
+
+@media screen and (min-width: 768px) {
+  .formcontacto{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 1064px) {
+  .menu__header{
+    font-size: 1.5rem;
+  }
+}

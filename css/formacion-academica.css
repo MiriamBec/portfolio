@@ -41,5 +41,31 @@
   margin-bottom: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .academic{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .academic__title{
+    padding-top: 1.5rem;
+  }
+
+  .academic__courses{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .academic__courses__box{
+    width: 32%;
+  }
+}
+
+@media screen and (min-width: 1064px) {
+  .menu__header{
+    font-size: 1.5rem;
+  }
+}
+
 
 
