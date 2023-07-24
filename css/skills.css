@@ -53,7 +53,27 @@
 }
 
 @media screen and (min-width: 1064px) {
-  .menu__header{
+  .skills{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .skills__title{
+    font-size: 2rem;
+  }
+
+  .skills__line{
+    justify-content: space-between;
+  }
+
+  .skills__box{
+    width: 15%;
+    align-items: center;
+    padding: 0;
+  }
+
+  .skills__names{
     font-size: 1.5rem;
   }
+
 }

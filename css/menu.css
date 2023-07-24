@@ -27,8 +27,51 @@ font-weight: 300;
 }
 
 @media screen and (min-width: 1064px) {
-  .menu__header{
-    font-size: 1.5rem;
+  .menu{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+  .navegador{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu__list{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    list-style: none;
+    display: flex;
+  }
+
+  .menu__list__item {
+    padding-right: 1rem;
+  }
+
+  .menu__list__item a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .menu__list__item a:active{
+    opacity: 0.5;
+  }
+}
+
+@media screen and (min-width: 1300px){
+  .menu{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  }
+
+  .menu__list__item {
+    padding-right: 1.5rem;
+  }
+}
+
+@media (hover: hover){
+  .menu__list__item a:hover{
+    text-decoration: underline;
   }
 }
 

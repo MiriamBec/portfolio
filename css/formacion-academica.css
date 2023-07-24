@@ -62,8 +62,29 @@
 }
 
 @media screen and (min-width: 1064px) {
-  .menu__header{
+  .academic{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .academic__title{
+    font-size: 2rem;
+  }
+
+  .academic_-courses__item_img{
+    height: 150px;
+  }
+  
+  .academic_-courses__item_img img{
+    width: 9rem;
+  }
+  
+  .academic__courses__item__title{
     font-size: 1.5rem;
+  }
+  
+  .academic__courses__item__subtitle{
+    font-size: 1.3rem;
   }
 }
 

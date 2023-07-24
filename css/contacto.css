@@ -64,10 +64,47 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .formcontacto__input, .formcontacto__textarea{
+    width: 97%;
+  }
 }
 
 @media screen and (min-width: 1064px) {
-  .menu__header{
+  .formcontacto{
+    padding: 5rem 5rem 3rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .formcontacto__title{
+    font-size: 2rem;
+  }
+
+  .formcontacto__subtext{
+    font-weight: 500;
     font-size: 1.5rem;
+    text-align: justify;
+  }
+
+  .formcontacto__img{
+    display: block;
+  }
+
+  .formcontacto__boton{
+    margin-bottom: 0;
+  }
+
+  .formcontacto__title{
+    padding-top: 0;
+  }
+}
+
+@media (hover: hover){
+  .formcontacto__boton:hover{
+    cursor: pointer;
+    opacity: 0.5;
   }
 }

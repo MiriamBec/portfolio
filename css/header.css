@@ -79,9 +79,40 @@
 }
 
 @media screen and (min-width: 1064px) {
-  .menu{
-    background-color: antiquewhite;
+  .title__div{
+    justify-content: center;
+    padding: 2rem 5rem;
   }
 
-  
+  .title__img{
+    width: 15rem;
+    padding: 0;
+  }
+
+  .title__bio{
+    font-size: 2rem;
+  }
+
+  .title__subsection{
+    font-size: 1.5rem;
+  }
+
+  .title__network{
+    justify-content: right;
+  }
+
+  .title__network__item {
+    padding-left: 1.5rem;
+  }
+
+  .title__network__item a:active {
+    opacity: 0.5;
+  }
+
+}
+
+@media (hover: hover) {
+  .title__network__item a:hover {
+    text-decoration: underline;
+  }
 }
